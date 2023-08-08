@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #333;
+  display: none;
+}
+
+.nav-item:hover .subnav-list {
+  display: block;
+}
+
+.subnav-item {
+  padding: 5px;
+}
+
+.subnav-link {
+  color: white;
+  text-decoration: none;
+}
